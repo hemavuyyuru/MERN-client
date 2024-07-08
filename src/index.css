@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f4f8;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #05faf6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #000000;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: calc(100% - 22px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #0a45c4;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #007BFF;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
