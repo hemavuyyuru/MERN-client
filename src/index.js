@@ -9,6 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <div>
  <Router>
+    <p>changes</p>
  <Navbar/>
  <Routes>
  <Route path="/about" element={<h1>About</h1>}/>
